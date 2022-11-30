@@ -1,123 +1,208 @@
-#titulo{
+#titulo {
     height: 200px;
     width: 600px;
     padding: 10px;
-    padding-right: 100px;
+    padding-right:10px;
 }
-#detalhes{
+
+#detalhes {
     height: 200px;
-    width: 500px; 
+    width: 500px;
 }
-h1{
-    margin-top: 40px;
-}
-header{
+
+
+header {
     background-color: rgb(255, 255, 255);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: -50px;
-    margin-bottom: 0px;
-    padding-bottom: 5px;
+    margin-top: -20px;
+    margin-bottom: -500px;
+    padding-bottom: -0px;
 }
-main{
+.container {
     background-image: url("Panfleto\ de\ Evento\ de\ Arte\ Geométrico\ Rosa\ Azul\ \(3\).png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-} 
-h40{
-    color: rgb(0, 73, 33);;
+    background-size: 100%;
+    display: block;
+    flex-wrap: wrap;
+    margin-top: 500px;
+    padding-bottom: 800px;
 }
-footer{
+p{
+    color: white;
+}
+
+.projetos1 {
+    width: 48%;
+    padding: 0px;
+    padding-top: 2px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+.projetos2{ 
+    width: 48%;
+    padding: 0px;
+    padding-top: 2px;
+    padding-right: 19px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+    float: right;
+    
+}
+h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: -300px;
+    text-align: center;
+}
+
+h40 {
+    color: rgb(0, 73, 33);
+    ;
+}
+
+footer {
     text-align: center;
     background-color: rgb(0, 73, 33);
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 20px;
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: 20px;
-    margin-bottom: -0.5cm;
+    padding-bottom: -100cm;
+
+    margin-top: 100px;
+    margin-bottom: -1000cm;
 }
-#inicio{
+
+#inicio {
     width: 70px;
     height: 50px;
     float: left;
     display: flex;
     margin: 5px;
 }
-.Logo{
+
+.Logo {
     width: 200px;
     height: 120px;
     margin-top: -120px;
     margin-left: 5px;
     display: flex;
 }
-
+img{
+    width: 100px;
+     height: 85px; 
+     padding: 30px;
+}
 @media(max-width:760px) {
- #titulo{
+    #titulo {
         height: 80px;
         width: 200px;
         padding: 0px;
-        padding-right: 40px;
+        margin-right: 70px;
     }
-    #detalhes{
-        height: 110px;
-        width: 160px; 
+
+    #detalhes {
+        height: 100px;
+        width: 140px;
+        margin-right: -5000px;
         margin-top: -10px;
-    } 
-    main{
+        
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 10px;
+    }
+    .container {
         background-image: url("Panfleto\ de\ Evento\ de\ Arte\ Geométrico\ Rosa\ Azul\ \(3\).png");
         background-repeat: no-repeat;
         background-position: center;
-        background-size: 100%;  
-        margin: -10px;
-        height: 10000;
-        margin-bottom: -550px;
-    } 
-    header{
-        background-color: rgb(255, 255, 255);
-        background-position: center;
+      background-size: 97% 100%;
+        margin: -15px;
+        display: block;
+        flex-wrap: wrap;
+        margin-top:2cm; 
+        margin-bottom: -10cm;
+       }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin: 15px;
+    }
+
+    img{
+        width: 100px;
+        height: 80px;
+        padding: 10px;
+        padding-right: 100px;
+    }
+    
+    .projetos1 {
+        width: 98%;
+        padding: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        display: flex;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 0px;
+    }
+    .projetos2{ 
+        width: 98%;
+        padding: 10px;
+        padding-top: 0px;
+        padding-right: 10px;
+        display: flex;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 0px;
+        
+    }
+    h5{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: -5px;
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        background-color: rgb(0, 73, 33);
+        color: rgb(255, 255, 255);
+        font-size: 15px;
         margin-left: -8px;
         margin-right: -8px;
-        margin-top: -30px;
-        margin-bottom: 30px;
-        padding-bottom: 60px;
-    }
-header{
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -25px;
-    margin-bottom: -580px;
-    padding-bottom: 5px
-}
-footer{
-    text-align: center;
-    background-color: rgb(0, 73, 33);
-    color:black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: 0px;
-    margin-bottom: -1000px;
-    padding-top: -1000px;
+        margin-top: 0px;
+        margin-bottom: -1000px;
+        padding-top: -1000px;
 
-}
-h40{
-    color:rgb(0, 73, 33);
-}
-#inicio{
-    width: 50px;
-    height: 40px;
-    float: left;
-    display: flex;
-    margin: 5px;
-}
+    }
+
+    h40 {
+        color: rgb(0, 73, 33);
+    }
+
+    #inicio {
+        width: 50px;
+        height: 40px;
+        float: left;
+        display: flex;
+        margin: 5px;
+    }
 }
