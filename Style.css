@@ -109,14 +109,14 @@ img{
         height: 80px;
         width: 200px;
         padding: 0px;
-        margin-right: -12px;
+        margin-right: 70px;
     }
 
     #detalhes {
         height: 100px;
         width: 140px;
-        margin-right: -1000px;
-       margin: -10px;
+        margin-right: -5000px;
+        margin-top: -10px;
         
     }
 
