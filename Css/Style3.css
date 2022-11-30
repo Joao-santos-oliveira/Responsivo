@@ -1,0 +1,301 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    animation-name: titulo;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-direction:normal;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+header{
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+nav ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color: white;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color:rgb(212, 212, 212);
+    padding: 8px;
+    font-size: 20px;
+    transition: linear 0.5s 0.3s;
+}
+body{
+    background-color: rgb(255, 255, 30)
+} 
+.imagens{
+    width: 900px;
+    height: 380px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:3em;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    margin-left: 0,5cm;
+    margin-right: 0,5cm;
+    padding: 10px;
+    line-height: 30px;
+}
+    
+#Oque{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 5px;
+    text-indent: 2px;
+}
+#Formato{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 25px;
+    margin: 5px;
+}
+h2{
+    font-size: 30px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:inherit;
+}
+h3{
+    font-size: 28px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    text-align: center;
+    background-color: rgb(0, 108, 49);
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 20px;
+    margin-bottom: -0.5cm;
+}
+h25{
+    color:rgb(0, 108, 49);
+}
+#inicio{
+    width: 70px;
+    height: 50px;
+    float: left;
+    display: flex;
+    margin: 5px;
+}
+.Logo{
+    width: 200px;
+    height: 120px;
+    margin-top: -120px;
+    margin-left: 5px;
+    display: flex;
+}
+        
+h5{
+    border-top: solid black 5px;
+}
+ul2{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    box-sizing: border-box;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+h8, h9, h10, h11, h12, h13, h14{
+    display: block;
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color:rgb(147, 255, 121);
+    color: rgb(255, 252, 102);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: inherit;
+}
+a{
+    color: black;
+}
+h8, h9, h10, h11, h12, h13, h14:hover{
+    cursor: pointer;
+    font-size: 16px;
+    transition: linear 1s 0.5s;
+}
+a{
+    text-decoration: none;
+}
+h6{ 
+    font-size: 22px;
+    font-family: fantasy;
+    text-decoration-color: black;
+}
+#lado{
+    height: 60px;
+    width: 80px;
+    display: block;
+    padding-bottom: 100px;
+    float: right;
+}
+
+@media(max-width:760px) {
+    .imagens{
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius:3em;
+}
+h1{
+    font-size: 25px;
+   text-align:center;
+   padding-top: 20px;
+   padding-left: 10px;
+}
+main{
+        background-color: rgb(255, 255, 255);
+        margin-left: 0cm;
+        margin-right: 0cm;
+        padding: 10px;
+        line-height: 20px;
+}
+header{
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+}
+.Logo{
+    width: 80px;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: 5px;
+    display: flex;
+    padding-right: 10px;
+}
+#Oque{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 15px;
+    margin: 5px;
+}
+#Formato{
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family:fantasy;
+    font-size: 15px;
+    margin: 5px;
+}
+h3,h2{
+    font-size: 18px;
+    color: rgb(100, 90, 90);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h6{ 
+    font-size: 16px;
+    font-family: fantasy;
+    text-decoration-color: black;
+}
+h8, h9, h10, h11, h12, h13, h14{
+    display: block;
+    width: 110px;
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 5px;
+    margin: 20px;
+    background-color:rgb(147, 255, 121);
+    color: rgb(255, 252, 102);
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    color: inherit;
+    font-size: 12px;
+}
+footer{
+    text-align: center;
+    background-color:rgb(0, 108, 49);
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 10px;
+    margin-bottom: -0.5cm;
+    
+}
+h25{
+    color:rgb(0, 108, 49);
+}
+#inicio{
+    width: 50px;
+    height: 40px;
+    float: left;
+    display: flex;
+    margin: 5px;
+}
+#lado{
+    height: 40px;
+    width: 50px;
+    display: block;
+    padding-bottom: 100px;
+    float: right;
+}
+}
