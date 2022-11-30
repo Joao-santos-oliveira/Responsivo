@@ -2,7 +2,7 @@
     height: 200px;
     width: 600px;
     padding: 10px;
-    padding-right: 100px;
+    padding-right:10px;
 }
 
 #detalhes {
@@ -30,7 +30,7 @@ header {
     display: block;
     flex-wrap: wrap;
     margin-top: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 800px;
 }
 p{
     color: white;
@@ -99,45 +99,24 @@ footer {
     margin-left: 5px;
     display: flex;
 }
-
+img{
+    width: 100px;
+     height: 85px; 
+     padding: 30px;
+}
 @media(max-width:760px) {
     #titulo {
         height: 80px;
         width: 200px;
         padding: 0px;
-        padding-right: 80px;
+        margin-right: -12px;
     }
 
     #detalhes {
         height: 100px;
         width: 140px;
-        margin-top: -30px;
-    }
-
-    .container {
-        background-image: url("Panfleto\ de\ Evento\ de\ Arte\ Geométrico\ Rosa\ Azul\ \(3\).png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 100%;
-        display: flex;
-        flex-wrap: wrap;
-
-    }
-
-    .projetos {
-        width: 50%;
-        padding: 5px;
-        display: flex;
-    }
-
-    header {
-        background-color: rgb(255, 255, 255);
-        background-position: center;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-top: -30px;
-        margin-bottom: 30px;
-        padding-bottom: 60px;
+        margin-top: 5px;
+        
     }
 
     header {
@@ -145,11 +124,60 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        margin-left: -8px;
-        margin-right: -8px;
-        margin-top: -25px;
-        margin-bottom: -580px;
-        padding-bottom: 5px
+        margin-bottom: 10px;
+    }
+    .container {
+        background-image: url("Panfleto\ de\ Evento\ de\ Arte\ Geométrico\ Rosa\ Azul\ \(3\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+      background-size: 97% 100%;
+        margin: -15px;
+        display: block;
+        flex-wrap: wrap;
+        margin-top:2cm; 
+        margin-bottom: -10cm;
+       }
+    p{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    img{
+        width: 100px;
+        height: 80px;
+        padding: 10px;
+        padding-right: 100px;
+    }
+    
+    .projetos1 {
+        width: 98%;
+        padding: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        display: flex;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 0px;
+    }
+    .projetos2{ 
+        width: 98%;
+        padding: 10px;
+        padding-top: 0px;
+        padding-right: 10px;
+        display: flex;
+        text-align: center;
+        padding-bottom: 5px;
+        margin-top: 0px;
+        
+    }
+    h5{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: -5px;
+        text-align: center;
     }
 
     footer {
