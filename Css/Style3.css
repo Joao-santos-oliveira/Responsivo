@@ -185,8 +185,25 @@ h6{
     padding-bottom: 100px;
     float: right;
 }
+#iii{
+    width:968px;
+     height:505px;
+     border-radius: 4em;
+     padding-left: 100px;
+     padding-right: 100px;
+     padding-top: 50px;
+}
 
 @media(max-width:760px) {
+
+    #iii{
+        width:350px;
+         height:205px;
+         border-radius: 3em;
+         padding-left: 20px;
+         padding-right: 0px;
+         padding-top: 50px;
+    }
     .imagens{
     width: 350px;
     height: 200px;
@@ -274,13 +291,13 @@ footer{
     text-align: center;
     background-color:rgb(0, 108, 49);
     color:rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 14px;
     margin-left: -8px;
     margin-right: -8px;
     margin-top: 10px;
     margin-bottom: -0.5cm;
-    
 }
+
 h25{
     color:rgb(0, 108, 49);
 }

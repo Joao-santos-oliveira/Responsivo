@@ -115,8 +115,8 @@ img{
     #detalhes {
         height: 100px;
         width: 140px;
-        margin-top: 5px;
-        margin-right: -11200px;
+        margin-right: -1000px;
+       margin: -10px;
         
     }
 
